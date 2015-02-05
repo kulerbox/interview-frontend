@@ -1,0 +1,18 @@
+{
+  "name": "assemble",
+  "version": "0.4.42",
+  "main": [
+    "./lib/assemble"
+  ],
+  "homepage": "https://github.com/assemble/assemble",
+  "_release": "0.4.42",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.42",
+    "commit": "ac4a26832e6e4c8484a875e7fb078a3977d0541c"
+  },
+  "_source": "git://github.com/assemble/assemble.git",
+  "_target": "~0.4.42",
+  "_originalSource": "assemble",
+  "_direct": true
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview - Front End</title>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <style type="text/css"></style>
+</head>
+<body>
+
+    <script>
+
+        $.post('ajax/find_profiles.php', function(profiles){
+            console.log(JSON.parse(profiles));
+        });
+
+        $.post('ajax/profile.php', {'email': 'danielle.hall70@example.com'}, function(profile){
+            console.log(JSON.parse(profile));
+        });
+
+    </script>
+
+</body>
+</html>
